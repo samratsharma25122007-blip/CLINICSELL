@@ -225,7 +225,7 @@ function TimelineDemo() {
 
 export default function Home() {
   return (
-    <main id="top" className="min-h-screen w-full bg-white dark:bg-neutral-950">
+    <main id="top" className="min-h-screen w-full">
       <Navbar />
       <TimelineDemo />
       <Footer />
