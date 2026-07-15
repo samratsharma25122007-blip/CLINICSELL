@@ -53,28 +53,28 @@ function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/images/consultation.svg"
+              src="/images/consultation.jpg"
               alt="General consultation at Meridian Health Clinic"
               width={500}
               height={500}
               className={`rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full ${cardShadow}`}
             />
             <Image
-              src="/images/cardiology.svg"
+              src="/images/cardiology.jpg"
               alt="Cardiology and heart health services"
               width={500}
               height={500}
               className={`rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full ${cardShadow}`}
             />
             <Image
-              src="/images/pediatrics.svg"
+              src="/images/pediatrics.jpg"
               alt="Pediatric care for children"
               width={500}
               height={500}
               className={`rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full ${cardShadow}`}
             />
             <Image
-              src="/images/checkup.svg"
+              src="/images/checkup.jpg"
               alt="Routine health checkups"
               width={500}
               height={500}
@@ -99,28 +99,28 @@ function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/images/surgery.svg"
+              src="/images/surgery.jpg"
               alt="Modern surgical suites"
               width={500}
               height={500}
               className={`rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full ${cardShadow}`}
             />
             <Image
-              src="/images/imaging.svg"
+              src="/images/imaging.jpg"
               alt="Advanced medical imaging"
               width={500}
               height={500}
               className={`rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full ${cardShadow}`}
             />
             <Image
-              src="/images/laboratory.svg"
+              src="/images/laboratory.jpg"
               alt="In-house diagnostic laboratory"
               width={500}
               height={500}
               className={`rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full ${cardShadow}`}
             />
             <Image
-              src="/images/physiotherapy.svg"
+              src="/images/physiotherapy.jpg"
               alt="Physiotherapy and rehabilitation"
               width={500}
               height={500}
