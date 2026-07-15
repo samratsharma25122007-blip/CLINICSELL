@@ -54,7 +54,7 @@ function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/images/consultation.jpg"
-              alt="General consultation at Meridian Health Clinic"
+              alt="General consultation at Myrackle Clinic"
               width={500}
               height={500}
               className={`rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full ${cardShadow}`}
@@ -89,7 +89,7 @@ function TimelineDemo() {
       content: (
         <div id="treatments">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Meridian is equipped with the latest medical technology, so you
+            Myrackle Clinic is equipped with the latest medical technology, so you
             receive precise diagnoses and effective, minimally-invasive
             treatments.
           </p>
@@ -135,14 +135,14 @@ function TimelineDemo() {
       content: (
         <div id="book">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Ready to take the next step toward better health? Booking with
-            Meridian takes less than a minute — choose a time that works for you
-            and our team will take care of the rest.
+            Take the next step toward better health. Scheduling a visit at
+            Myrackle Clinic takes less than a minute — choose a time that suits
+            you and our care team will handle the rest.
           </p>
 
           <a
-            href="mailto:appointments@meridianhealth.example?subject=Appointment%20Request"
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-br from-blue-600 to-cyan-500 px-6 py-3 text-sm md:text-base font-semibold text-white shadow-md hover:opacity-90 transition-opacity mb-8"
+            href="mailto:appointments@myrackleclinic.example?subject=Appointment%20Request"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-br from-blue-700 to-cyan-600 px-6 py-3 text-sm md:text-base font-semibold text-white shadow-md hover:opacity-90 transition-opacity mb-8"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <rect x="3" y="4" width="18" height="18" rx="2" />
@@ -153,18 +153,30 @@ function TimelineDemo() {
             Book Appointment
           </a>
 
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🕐 Mon–Sat: 8:00 AM – 8:00 PM
+          <div className="mb-8 space-y-2">
+            <div className="flex gap-2.5 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              <svg className="shrink-0 text-blue-700 dark:text-blue-400" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+              </svg>
+              Monday – Saturday: 8:00 AM – 8:00 PM
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🕐 Sunday: 9:00 AM – 2:00 PM
+            <div className="flex gap-2.5 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              <svg className="shrink-0 text-blue-700 dark:text-blue-400" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+              </svg>
+              Sunday: 9:00 AM – 2:00 PM
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🚑 24/7 Emergency: +1 (555) 010-9111
+            <div className="flex gap-2.5 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              <svg className="shrink-0 text-rose-600 dark:text-rose-400" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              24/7 Emergency line: +1 (555) 010-9111
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Same-day appointments available
+            <div className="flex gap-2.5 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              <svg className="shrink-0 text-emerald-600 dark:text-emerald-400" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              Same-day appointments available
             </div>
           </div>
 
@@ -192,10 +204,10 @@ function TimelineDemo() {
               }
             />
             <ContactCard
-              href="mailto:appointments@meridianhealth.example"
+              href="mailto:appointments@myrackleclinic.example"
               tint="bg-gradient-to-br from-indigo-500 to-violet-600"
               label="Email Us"
-              value="appointments@meridianhealth.example"
+              value="appointments@myrackleclinic.example"
               icon={
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <rect x="2" y="4" width="20" height="16" rx="2" />

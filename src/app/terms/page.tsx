@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Terms & Conditions — Meridian Health Clinic",
+  title: "Terms & Conditions — Myrackle Clinic",
 };
 
 export default function TermsPage() {
@@ -27,7 +27,7 @@ export default function TermsPage() {
             <p>
               By booking an appointment or using this website, you agree to
               provide accurate information and to use our services responsibly.
-              These terms govern your relationship with Meridian Health Clinic.
+              These terms govern your relationship with Myrackle Clinic.
             </p>
           </section>
           <section>
@@ -57,7 +57,7 @@ export default function TermsPage() {
             </h2>
             <p>
               Questions about these terms? Reach us at
-              appointments@meridianhealth.example or +1 (555) 010-2040.
+              appointments@myrackleclinic.example or +1 (555) 010-2040.
             </p>
           </section>
         </div>

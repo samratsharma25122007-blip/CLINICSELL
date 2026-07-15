@@ -1,9 +1,9 @@
 "use client";
 import { StaticMeshGradient } from "@/components/ui/static-mesh-gradient";
 
-// Light, premium cool palette so dark timeline text stays readable
-// while the flat white background is replaced by the mesh gradient.
-const COLORS = ["#eef6ff", "#bfe3ff", "#a7f3eb", "#c9d6ff", "#e9d5ff"];
+// Calm clinical blues/teals — professional, low-saturation palette that
+// keeps dark timeline text readable while replacing the flat white.
+const COLORS = ["#f4f8fc", "#dcebf7", "#c3ddf0", "#cfe9e4", "#e8f0f9"];
 
 export function Background() {
   return (

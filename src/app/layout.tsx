@@ -6,9 +6,9 @@ import { Background } from "@/components/background";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Meridian Health Clinic — Compassionate, Expert Medical Care",
+  title: "Myrackle Clinic — Expert Medical Care & Advanced Treatments",
   description:
-    "Meridian Health Clinic offers expert medical care, advanced treatments, and easy online appointment booking.",
+    "Myrackle Clinic offers expert medical care, advanced treatments, and easy online appointment booking.",
 };
 
 export default function RootLayout({

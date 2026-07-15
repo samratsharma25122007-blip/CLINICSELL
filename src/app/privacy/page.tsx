@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy — Meridian Health Clinic",
+  title: "Privacy Policy — Myrackle Clinic",
 };
 
 export default function PrivacyPage() {
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
               Information We Collect
             </h2>
             <p>
-              Meridian Health Clinic collects the information you provide when
+              Myrackle Clinic collects the information you provide when
               booking an appointment, contacting us, or receiving care — such as
               your name, contact details, and relevant medical history. We only
               collect what is necessary to deliver safe, effective care.
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
             <p>
               You may request access to, correction of, or deletion of your
               personal information at any time by contacting us at
-              appointments@meridianhealth.example.
+              appointments@myrackleclinic.example.
             </p>
           </section>
         </div>

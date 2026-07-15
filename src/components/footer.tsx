@@ -30,16 +30,16 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 text-white font-bold">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-700 to-cyan-600 text-white font-bold">
                 M
               </span>
               <span className="font-bold text-white text-lg tracking-tight">
-                Meridian Health
+                Myrackle Clinic
               </span>
             </div>
             <p className="text-sm text-neutral-400 leading-relaxed">
-              Compassionate, expert medical care for you and your family — all
-              under one roof.
+              Board-certified specialists, advanced diagnostics, and
+              patient-first care — trusted by our community for over 15 years.
             </p>
             <div className="flex items-center gap-3 mt-5">
               <SocialIcon label="Facebook" href="#">
@@ -100,8 +100,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:appointments@meridianhealth.example" className="hover:text-white transition-colors">
-                  appointments@meridianhealth.example
+                <a href="mailto:appointments@myrackleclinic.example" className="hover:text-white transition-colors">
+                  appointments@myrackleclinic.example
                 </a>
               </li>
               <li>Mon–Sat: 8:00 AM – 8:00 PM</li>
@@ -110,7 +110,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-neutral-500">
-          <p>© 2026 Meridian Health Clinic. All rights reserved.</p>
+          <p>© 2026 Myrackle Clinic. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="/terms" className="hover:text-white transition-colors">Terms &amp; Conditions</a>
