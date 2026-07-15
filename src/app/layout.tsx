@@ -5,8 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "CLINICSELL",
-  description: "A timeline of our journey, powered by scroll animations.",
+  title: "Meridian Health Clinic — Compassionate, Expert Medical Care",
+  description:
+    "Meridian Health Clinic offers expert medical care, advanced treatments, and easy online appointment booking.",
 };
 
 export default function RootLayout({
